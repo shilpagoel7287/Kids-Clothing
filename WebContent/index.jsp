@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Welcome to jsp</h1>
+<h1>Welcome to jsp..hello</h1>
 <hr/>
 <form action="MyServlet" method="get">
 <input type="submit" value="send"/>
