@@ -5,51 +5,27 @@
 <head>
 <title>Kids Clothing</title>
 <meta charset="ISO-8859-1">
+<meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<style>
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-</style>
 </head>
 <body>
-
-<ul>
-  <li><a href="#login">Login</a></li>
-  <li><a href="#about">About</a></li>
-   <li><a href="#contact">Contact</a></li>
-   <li><a class="active" href="#home">Home</a></li>
- 
-  
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Kids Clothing</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Login.html">Login</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#contact">Contact</a></li>
+       <li><a class="active" href="#home">Home</a></li>
 </ul>
+</div>
+</nav>
 <div style="padding:20px;margin-top:30px;background-color:#1abc9c;">
 <h1>Welcome To Kids Clothing</h1>
 <h5>You can buy any type of kids clothes for boys and girls</h5>
@@ -66,20 +42,20 @@ li a:hover {
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="images/img4.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="images/img1.jpg" alt="Los Angeles" style="width:100%;height:300px; float: right;">
         <div class="carousel-caption">
          
         </div>
       </div>
 
       <div class="item">
-        <img src="images/img4.jpg" alt="Chicago" style="width:100%;">
+        <img src="images/img2.jpg" alt="Chicago" style="width:100%;height:300px">
         <div class="carousel-caption">
         </div>
       </div>
     
       <div class="item">
-        <img src="images/img4.jpg" alt="New York" style="width:100%;">
+        <img src="images/img3.jpg" alt="New York" style="width:100%;height:300px">
         <div class="carousel-caption">
           
         </div>
@@ -98,6 +74,7 @@ li a:hover {
     </a>
   </div>
 </div>
+
 </body>
 <footer>
   <p>Posted by: Shilpa Goel</p>
